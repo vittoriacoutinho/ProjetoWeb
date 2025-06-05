@@ -8,7 +8,7 @@ Este projeto é parte das atividades práticas da matéria e tem como objetivo a
 ## 💻 Tecnologias utilizadas (até agora)
 - HTML5
 - CSS3
-- JavaScript (puro)
+
 
 ## 📂 Estrutura do projeto
 ## 🚀 Como executar o projeto
