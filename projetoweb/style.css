@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(#757474, #ccc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.outer-border {
+  border: 3px solid #666;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  background: radial-gradient(circle, #e0e0e0 60%, #999999 100%);
+  border: 4px groove #999;
+  text-align: center;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+}
+
+header img {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 1px;
+  border: 2px solid #b30000;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin-bottom: 20px;
+}
+
+.welcome {
+  color: #b30000;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+nav {
+  background: #333;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #575757;
+}
+
+.catalogo-placeholder {
+  background: #e0e0e0;
+  border: 2px dashed #999;
+  padding: 50px;
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+textarea {
+  resize: none;
+  width: 90%;
+  height: 120px;
+}
+
+.formulario-contato,
+.Login {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 25px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: #9b9fa570;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.Login h2 {
+  color: #0c3d7c;
+}
+
+.formulario-login,
+.formulario-contato {
+  text-align: center;
+}
+
+.Login hr {
+  width: 200px;
+  height: 1px;
+  margin: 10px auto 20px auto;
+}
+
+.formulario-contato button,
+.formulario-login button {
+  background-color: #800000;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
